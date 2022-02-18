@@ -2,12 +2,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.baclk{
+body{
+    height:100%;
+}
+
+.black{
     color:#4D4C59;
 }
 
+.is-purple{
+    background-color:#6C63FF!important;
+}
+
 .purple{
-   color: #6C63FF;
+   color: #6C63FF!important;
 }
 
 .light-grey{
@@ -30,3 +38,12 @@
     font-weight:500;
 }
 
+.content .clock{
+    font-size:3.9em!important;
+}
+
+@media screen and (max-width:480px) and (max-width:720px){
+    .content .clock{
+        font-size:3em!important;
+    }
+}
