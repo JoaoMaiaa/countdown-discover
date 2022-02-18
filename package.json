@@ -1,0 +1,22 @@
+{
+  "name": "countdown-discover",
+  "version": "1.0.0",
+  "description": "Desafio da rocketseat de countdown no discover",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoMaiaa/countdown-discover.git"
+  },
+  "author": "Joao Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoMaiaa/countdown-discover/issues"
+  },
+  "homepage": "https://github.com/JoaoMaiaa/countdown-discover#readme",
+  "dependencies": {
+    "bulma": "^0.9.3"
+  }
+}
