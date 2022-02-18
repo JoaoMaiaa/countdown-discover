@@ -1,17 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/bulma/css/bulma-rtl.min.css">
     <link rel="stylesheet" href="assets/styles/style.css">
     <title>Countdown</title>
 </head>
-<body>
 
+<body>
+    <div class="container pt-6 px-2 ">
+
+        <div class="columns mt-4">
+            <div class="column mb-6 is-flex is-justify-content-center is-align-items-center is-6">
+                <div class="content pt-5">
+                    <h1 class="title f-weight-400 purple is-uppercase has-text-centered">Ready to launch in...</h1>
+                    <h2 class="has-text-centered title black clock mt-2">12 : 08 : 00 : 00</h2>
+                    <p class="text-color has-text-centered mb-5">Increva-se para saber mais sobre o lançamento</p>
+                    <div class="is-flex is-justify-content-center">
+                        <a href="#" class="is-justify-content-center button is-purple has-text-light js-modal-trigger"
+                            data-target="modal-js-example" onclick=(openModal(this))>Inscreva-se</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-6 ">
+                <img class="image" src="assets/images/5023326.jpg" alt="" srcset="">
+            </div>
+        </div>
+        <footer class="footer p-6">
+            <div class="content has-text-centered">
+                <p class="pt-5">
+                    <strong>Feito</strong> por <a href="#" class="purple">João Maia</a>
+                </p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <!-- Any other Bulma elements you want -->
+        </div>
+        <button class="modal-close is-large" aria-label="close" onclick=(closeModal(this))></button>
+    </div>
+
+    <script src="assets/javascript/modal.js"></script>
 </body>
+
 </html>
