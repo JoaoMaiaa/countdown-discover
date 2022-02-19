@@ -9,3 +9,5 @@ function closeModal(e){
     modal.classList.remove('is-active')
     console.log(modal)
 }
+
+
